@@ -1,0 +1,20 @@
+#!/bin/sh
+
+printf '\e[1;30;47m               .:/++++/:.`               \033[0m
+\e[1;30;47m          `:sdNNdyssssyhmNmy/`           \033[0m
+\e[1;30;47m        -yNms:`        ..`-odMh/         \033[0m
+\e[1;30;47m      .hMh:      -+shmNNNmo. .sNm/`.-:`  \033[0m
+\e[1;30;47m     +Mm-       :Mm+:-` `/hNdhdNMMNmMM.  \033[0m
+\e[1;30;47m    sMh`       -NN.    --  `::-.`  :Md   \033[0m
+\e[1;30;47m   /Md        -NN-    `MN         .mM-   \033[0m
+\e[1;30;47m   mM-      `sMd..do   MM`      `oNMM.   \033[0m
+\e[1;30;47m  .Mm     `oNm/  yM+   NM`    -sNm+yM+   \033[0m
+\e[1;30;47m  -Md   `+NN+   `MN`   mM::+yNNy:  oMo   \033[0m
+\e[1;30;47m  `NN` +mNo`    :Md    dMmdy+-     hM:   \033[0m
+\e[1;30;47m   sMymNo`      .Mm`   hM:        -Mm    \033[0m
+\e[1;30;47m   `mMd`         oMh.  yM/       .mN-    \033[0m
+\e[1;30;47m    `dMo          /dMhodM+      :NN:     \033[0m
+\e[1;30;47m      oMd:          NMsss-    -yMh.      \033[0m
+\e[1;30;47m       .sNmo-       NM`    .+hMh:        \033[0m
+\e[1;30;47m         `/hNNho/:-.NM//oymNdo.          \033[0m
+\e[1;30;47m             -/oyhdmmddys+-`             \033[0m\n\n'
