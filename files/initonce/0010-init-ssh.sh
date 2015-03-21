@@ -9,4 +9,4 @@ chmod 0700 /home/$LOCAL_USERNAME/.ssh
 ssh-keygen -b 2048 -t rsa -N '' -C '' -f /home/$LOCAL_USERNAME/.ssh/id_rsa > /dev/null
 chown -R $LOCAL_USERNAME:$LOCAL_USERNAME /home/$LOCAL_USERNAME/.ssh
 
-curl 'https://github.com/$GITHUB_USERNAME.keys' > /home/$LOCAL_USERNAME/.ssh/authorized_keys
+curl "https://github.com/$GITHUB_USERNAME.keys" > /home/$LOCAL_USERNAME/.ssh/authorized_keys

@@ -1,15 +1,15 @@
 #!/bin/bash
 
-if [ -d /nitrous/init ]; then
-  for script in /nitrous/init/*; do
+if [ -d /mhnd/init ]; then
+  for script in /mhnd/init/*; do
     if [ -x $script ]; then
       $script
     fi
   done
 fi
 
-if [ -d /nitrous/initonce ]; then
-  for script in /nitrous/initonce/*; do
+if [ -d /mhnd/initonce ]; then
+  for script in /mhnd/initonce/*; do
     if [ -x $script ]; then
       if [ ! -e "$script".done ]; then
         $script
