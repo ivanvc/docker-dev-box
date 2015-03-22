@@ -50,6 +50,7 @@ ADD files/bootstrap.sh /mhnd/bootstrap.sh
 ADD files/sshd_config /etc/ssh/sshd_config
 
 ADD files/initonce/0010-init-ssh.sh /mhnd/initonce/0010-init-ssh.sh
+ADD files/initonce/0050-init-autoparts.sh /mhnd/initonce/0050-init-autoparts.sh
 
 RUN apt-get source update-motd
 
