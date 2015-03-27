@@ -48,6 +48,7 @@ RUN \
 ADD files/motd /etc/update-motd.d/00-header
 ADD files/bootstrap.sh /mhnd/bootstrap.sh
 ADD files/sshd_config /etc/ssh/sshd_config
+ADD files/locale.sh /etc/profile.d/locale.sh
 
 ADD files/initonce/0010-init-ssh.sh /mhnd/initonce/0010-init-ssh.sh
 ADD files/initonce/0050-init-autoparts.sh /mhnd/initonce/0050-init-autoparts.sh
