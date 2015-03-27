@@ -23,7 +23,7 @@ RUN \
   libreadline6-dev libsndfile1-dev libsqlite3-dev libssl0.9.8 libxml2 \
   libxml2-dev libxslt1-dev libxt-dev libxt6 libyaml-dev openssl psmisc \
   ruby1.9.3 s3cmd sqlite3 telnet tsconf unzip util-linux wget whiptail \
-  xz-utils zip zlib1g zlib1g-dev && \
+  xz-utils zip zlib1g zlib1g-dev zsh && \
   apt-get clean
 
 # Create user and give sudo
