@@ -23,7 +23,7 @@ RUN \
   libreadline6-dev libsndfile1-dev libsqlite3-dev libssl0.9.8 libxml2 \
   libxml2-dev libxslt1-dev libxt-dev libxt6 libyaml-dev openssl psmisc \
   ruby1.9.3 s3cmd sqlite3 telnet tsconf unzip util-linux wget whiptail \
-  xz-utils zip zlib1g zlib1g-dev zsh && \
+  xz-utils zip zlib1g zlib1g-dev zsh groff rsync && \
   apt-get clean
 
 # Create user and give sudo
@@ -51,6 +51,7 @@ ADD files/sshd_config /etc/ssh/sshd_config
 ADD files/locale.sh /etc/profile.d/locale.sh
 
 ADD files/initonce/0010-init-ssh.sh /mhnd/initonce/0010-init-ssh.sh
+ADD files/initonce/0020-init-sudo.sh /mhnd/initonce/0020-init-sudo.sh
 ADD files/initonce/0050-init-autoparts.sh /mhnd/initonce/0050-init-autoparts.sh
 
 RUN apt-get source update-motd
