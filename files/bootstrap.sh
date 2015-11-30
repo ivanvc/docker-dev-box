@@ -12,8 +12,7 @@ if [ -d /mhnd/initonce ]; then
   for script in /mhnd/initonce/*; do
     if [ -x $script ]; then
       if [ ! -e "$script".done ]; then
-        $script
-        touch "$script".done
+        $script > "$script".done 2>&1
       fi
     fi
   done

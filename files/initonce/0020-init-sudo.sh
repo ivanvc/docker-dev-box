@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "$LOCAL_USERNAME ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/local
+env > /mhnd/lol
+echo "dev ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/local
